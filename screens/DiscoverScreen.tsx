@@ -13,14 +13,15 @@ export default DiscoverScreen
 
 // Styles
 const styles = StyleSheet.create({
-    screenContainer: {
-      flex: 1,
-      justifyContent: 'center',
-      alignItems: 'center',
-    },
-    text: {
-      fontSize: 24,
-      fontWeight: 'bold',
-    },
-  });
-  
+  screenContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#eb529a'
+  },
+  text: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color:'white'
+  },
+});

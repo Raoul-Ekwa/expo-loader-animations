@@ -4,7 +4,7 @@ import React from 'react'
 function ProfileScreen() {
   return (
     <View style={styles.screenContainer}>
-      <Text style={styles.text}>Recherche</Text>
+      <Text style={styles.text}>Paramètres</Text>
     </View>
   )
 }
@@ -13,14 +13,15 @@ export default ProfileScreen
 
 // Styles
 const styles = StyleSheet.create({
-    screenContainer: {
-      flex: 1,
-      justifyContent: 'center',
-      alignItems: 'center',
-    },
-    text: {
-      fontSize: 24,
-      fontWeight: 'bold',
-    },
-  });
-  
+  screenContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#eb529a'
+  },
+  text: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color:'white'
+  },
+});

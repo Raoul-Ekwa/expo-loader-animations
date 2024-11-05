@@ -50,11 +50,11 @@ export default function App() {
           },
         })}
       >
-        <Tab.Screen name="Accueil" component={PageAcceuil} />
-        <Tab.Screen name="Recherche" component={SearchScreen} />
-        <Tab.Screen name="Paramètres" component={SettingsScreen} />
-        <Tab.Screen name="Profil" component={ProfileScreen} />
-        <Tab.Screen name="Découvrir" component={DiscoverScreen} />
+        <Tab.Screen name="Accueil" component={PageAcceuil} options={{headerShown: false}}/>
+        <Tab.Screen name="Recherche" component={SearchScreen} options={{headerShown: false}}/>
+        <Tab.Screen name="Paramètres" component={SettingsScreen} options={{headerShown: false}}/>
+        <Tab.Screen name="Profil" component={ProfileScreen} options={{headerShown: false}}/>
+        <Tab.Screen name="Découvrir" component={DiscoverScreen} options={{headerShown: false}}/>
       </Tab.Navigator>
     </NavigationContainer>
   );
