@@ -27,7 +27,7 @@ const WaveLoader = () => {
     // Arrêter le loader après 2 secondes et naviguer vers OnboardingScreen
     setTimeout(() => {
       setLoading(false);
-      navigation.navigate('HomeScreen');  // Naviguer vers l'écran d'Onboarding
+      navigation.navigate('HomeScreen');  // Naviguer vers l'écran HomeScreen
     }, 2000);  // Temps de chargement de 2 secondes
   }, [loading, navigation]);
 
