@@ -1,20 +1,11 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import React from 'react';
+import WaveHomeLoader from '@/components/WaveHomeLoader';
 
-const index = () => {
+
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>index</Text>
-    </View>
-  )
-}
+    <WaveHomeLoader />
+  );
+};
 
-export default index
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  }
-})
+export default App;
