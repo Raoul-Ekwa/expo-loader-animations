@@ -1,11 +1,10 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import HomeListItem from '@/components/Home/HomeListItem';
 
 function PageAcceuil(){
   return (
-    <View style={styles.screenContainer}>
-      <Text style={styles.text}>Acceuil</Text>
-    </View>
+    <HomeListItem /> //liste les repas ou articles sur la page d'acceuil
   )
 }
 
