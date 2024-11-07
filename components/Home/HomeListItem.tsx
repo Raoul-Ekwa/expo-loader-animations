@@ -126,6 +126,9 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 18,
     fontWeight: 'bold',
+    backgroundColor: 'black',
+    
+    
   },
   errorText: {
     color: 'red',

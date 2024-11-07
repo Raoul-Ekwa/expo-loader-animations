@@ -4,7 +4,6 @@ import { NavigationContainer } from '@react-navigation/native';
 import { View, Text, StyleSheet } from 'react-native';
 import SearchScreen from './SearchScreen';
 import SettingsScreen from './SettingsScreen';
-import ProfileScreen from './ProfileScreen'
 import DiscoverScreen from './DiscoverScreen';
 import PageAcceuil from './PageAcceuil';
 
@@ -33,8 +32,6 @@ export default function App() {
               iconName = 'search';
             } else if (route.name === 'Paramètres') {
               iconName = 'settings';
-            } else if (route.name === 'Profil') {
-              iconName = 'person';
             } else if (route.name === 'Découvrir') {
               iconName = 'compass';
             }
@@ -53,7 +50,6 @@ export default function App() {
         <Tab.Screen name="Accueil" component={PageAcceuil} options={{headerShown: false}}/>
         <Tab.Screen name="Recherche" component={SearchScreen} options={{headerShown: false}}/>
         <Tab.Screen name="Paramètres" component={SettingsScreen} options={{headerShown: false}}/>
-        <Tab.Screen name="Profil" component={ProfileScreen} options={{headerShown: false}}/>
         <Tab.Screen name="Découvrir" component={DiscoverScreen} options={{headerShown: false}}/>
       </Tab.Navigator>
     </NavigationContainer>
